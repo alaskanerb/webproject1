@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+	<head>
+		<title>project #1 </title>
+		<style>
+			table{
+				border: 2px solid black;
+				border-collapse: collapse;
+				width 50%;
+
+			        }
+			
+				td, th{
+					border: 2px solid black;
+				}
+		
+		
+
+		
+		
+		
+		
+		</style>
+		<link rel="stylesheet" href="project4.css">
+		
+	</head>
+
+	
+	<body onload="startTime()">
+     
+<button id="btnStart" onclick="buttonStart()">BtC</button>
+      <br />
+
+	 <script>
+			
+			
+			
+                
+				
+				
+				function startTime() {
+				var today = new Date();
+                var hours = today.getHours();
+                var minutes = today.getMinutes();				
+                var seconds = today.getSeconds();
+				var ampm = "pm";
+				
+				
+				
+				if(hours > 12) {
+				  hours = hours - 12;
+				  ampm = "pm";	
+				}
+ 
+ 
+ 
+ 
+            document.getElementById("currentTime").innerHTML = hours + ":" + minutes + ":" + seconds + "" + ampm;
+
+
+			
+			
+			
+			     var timeout = setTimeout(startTime, 1);
+			
+			
+			
+			
+    }function checkTime(value) {
+         if(value < 10) {
+            value = "0" + value;
+
+    }
+		}
+
+		
+		
+		     
+		 
+			
+			</script>
+			
+			
+			
+			<div id="currentTime"></div>
+	
+	
+	
+
+		
+		<h1 id="pageTitle">Welcome to the unofficial breaking the clutch website</h1>
+		
+		<a href="anonymous.html">We are anonymous-></a>
+		
+		<a href="JavaScript.html">Breaking the clutch store-></a>
+		<a href="scareware.html">Breaking the clutch gallery -></a>
+			<img src="BtC.png" alt="go to my vires filled page" style="width:750px: height:450px">
+			
+			
+	
+		<h1 id="pageTitle">writing code is too hard i want to be a walmart greeter</h1>	
+			
+			
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+	
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+	    <br/>
+		<br/>
+		<br/>
+			
+			<img src="BtC2.gif" alt="go to my vires filled page" style="width:750px: height:450px">
+		
+		
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+	
+		<br/>
+		<br/>
+		<br/>
+		
+	<div style="text-aline: right">
+	
+				<br/>
+	
+		<br/>
+		<br/>
+		<table style="border: 1px solid black"/>
+			<tr>
+								
+									<th>HWCL 1st place winner</th>
+									<th>HWCL 2nd place winner</th>
+									<th>HWCL 3rd place winner</th>
+			</tr>
+			<tr>
+									<td>mikebeaston</th>
+									<td>yodaslayer</th>
+			                        <td>amirite32</th>
+			</tr>
+			
+			
+
+		<table style="border: 1px solid black"/>
+		
+		
+		
+		
+		
+		
+		
+		
+		<br/>
+		<br/>
+		<br/>
+	
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<tr>          				
+		
+		
+		
+										<th> clock</th>
+		</tr>
+		
+		
+		
+		<tr>
+										<td> <div id="currentTime"></div></td>
+
+		
+
+			</tr>	
+									
+		</table>
+	</div>
+
+	
+	 <h1 id="pageTitle">Dodge Zone Game Page</h1>
+      <hr />
+	
+	
+	
+
+		
+	</body>
+	
+	
+	
+</html>
